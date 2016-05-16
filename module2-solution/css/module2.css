@@ -13,7 +13,7 @@ h1 {
 
 section > div {
   position: relative;
-  border: 2px solid black;
+  border: 1px solid black;
   margin: 10px;  
 }
 
@@ -23,14 +23,27 @@ section > div > h2 {
   right: 0px;
   width: 120px;
   text-align: center;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
 section > div > p {
   position: relative;
   margin-top: 40px;
   padding: 15px;
+}
+
+h2#chicken-title {
+  background-color: #D59898;
+}
+
+h2#beef-title {
+  background-color: #C14543;
+  color: white;
+}
+
+h2#sushi-title {
+  background-color: #E5D198;
 }
 
 /* Simple Responsive Framework. */
