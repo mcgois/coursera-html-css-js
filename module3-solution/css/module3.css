@@ -1,0 +1,22 @@
+.nav > li {
+	text-align: center;	
+	background-color: #C8D8DE;
+}
+
+.navbar-default .navbar-nav > li {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.navbar-default .navbar-nav > li:last-child {
+	border-bottom: 1px solid black;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #777;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: black;
+}
